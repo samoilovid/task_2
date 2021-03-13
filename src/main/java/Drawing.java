@@ -19,8 +19,8 @@ public class Drawing extends Application {
 
         line.setStartX(150.0f);
         line.setStartY(150.0f);
-        line.setEndX(150);
-        line.setEndX(150);
+        line.setEndX(300.0f);
+        line.setEndX(300.0f);
 
         Group root = new Group(sphere, line);
         Scene scene = new Scene(root, 600, 300);
